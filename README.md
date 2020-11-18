@@ -8,7 +8,7 @@ Can Vasya sell a ticket to every person and give change if he initially has no m
 Return `YES`, if Vasya can sell a ticket to every person and give change with the bills he has at hand at that moment. Otherwise return `NO`.
 
 ## Examples:
-```
+```Java
 Line.Tickets(new int[] {25, 25, 50}) // => YES 
 Line.Tickets(new int[] {25, 100}) // => NO. Vasya will not have enough money to give change to 100 dollars
 Line.Tickets(new int[] {25, 25, 50, 50, 100}) // => NO. Vasya will not have the right bills to give 75 dollars of change (you can't make two bills of 25 from one of 50)
